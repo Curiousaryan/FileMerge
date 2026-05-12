@@ -1,0 +1,24 @@
+===== FILE 2 : THREADING NOTES =====
+
+Chapter 1: Threads in Java
+----------------------------
+A thread is the smallest unit of CPU execution.
+Java supports multithreading natively via java.lang.Thread.
+Threads share the same memory space within a process.
+
+Chapter 2: Thread Lifecycle
+-----------------------------
+NEW       -> Thread created but not started.
+RUNNABLE  -> Thread is ready or running.
+BLOCKED   -> Waiting for a monitor lock.
+WAITING   -> Waiting indefinitely for another thread.
+TERMINATED-> Thread has finished execution.
+
+Chapter 3: Synchronization
+----------------------------
+Race Condition  : Multiple threads access shared data unsafely.
+Synchronized    : Keyword to lock a method or block.
+Monitor Lock    : Every object has an intrinsic lock.
+wait/notify     : Used for inter-thread communication.
+
+===== END OF FILE 2 =====

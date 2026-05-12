@@ -1,0 +1,22 @@
+===== FILE 1 : JAVA NOTES =====
+
+Chapter 1: Introduction to Java
+--------------------------------
+Java is a high-level, class-based, object-oriented programming language.
+It was designed to have as few implementation dependencies as possible.
+Java applications are compiled to bytecode that runs on the JVM.
+
+Chapter 2: OOP Concepts
+------------------------
+1. Encapsulation  - Wrapping data and methods together.
+2. Inheritance    - One class acquires properties of another.
+3. Polymorphism   - One interface, many implementations.
+4. Abstraction    - Hiding internal details, showing functionality.
+
+Chapter 3: Java Memory Model
+-----------------------------
+Stack Memory  : Stores local variables and method calls.
+Heap Memory   : Stores objects and instance variables.
+Method Area   : Stores class-level data and static variables.
+
+===== END OF FILE 1 =====
